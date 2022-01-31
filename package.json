@@ -4,22 +4,29 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src/index.js",
-    "dev": " env-cmd config/dev.env nodemon src/index.js"
+    "dev": " env-cmd config/dev.env nodemon src/index.js",
+    "test": "env-cmd config/test.env jest --watch --runInBand"
+  },
+  "jest": {
+    "testEnvironment": "node"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.2",
     "fastest-validator": "^1.12.0",
+    "fs": "0.0.1-security",
     "moment": "^2.29.1",
     "moment-timezone": "^0.5.34",
     "multer": "^1.4.4",
-    "mysql2": "^2.3.3"
+    "mysql2": "^2.3.3",
+    "winston": "^3.5.0"
   },
   "devDependencies": {
     "env-cmd": "^8.0.2",
-    "nodemon": "^2.0.15"
+    "jest": "^27.4.7",
+    "nodemon": "^2.0.15",
+    "supertest": "^6.2.2"
   }
 }
