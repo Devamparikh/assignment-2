@@ -1427,3 +1427,348 @@
 {"level":"info","message":"response from deleteQuery function in router file: [object Object],[object Object]","service":"user-service"}
 {"level":"info","message":"sending response from router using send","service":"user-service"}
 {"level":"info","message":"successfully data deleted for id: ","service":"user-service"}
+{"level":"info","message":"insert data route start.","service":"user-service"}
+{"level":"info","message":"valid data check: ","service":"user-service"}
+{"level":"info","message":"sending req.body and req.file in insertQuery function","service":"user-service"}
+{"level":"info","message":"data arrived at insertQuery function: ","service":"user-service"}
+{"level":"info","message":"insert query executed successfully: [object Object]","service":"user-service"}
+{"level":"info","message":"response from insertQuery function in router file: [object Object]","service":"user-service"}
+{"level":"info","message":"sending response from router using send","service":"user-service"}
+{"level":"info","message":"insert data route start.","service":"user-service"}
+{"level":"info","message":"valid data check: ","service":"user-service"}
+{"level":"info","message":"sending req.body and req.file in insertQuery function","service":"user-service"}
+{"level":"info","message":"data arrived at insertQuery function: ","service":"user-service"}
+{"level":"error","message":"error in insert router:  Cannot read property 'filename' of undefined","service":"user-service","stack":"TypeError: Cannot read property 'filename' of undefined\n    at insertQuery (D:\\Programming\\Projects\\marutiTechlabAssignment\\marutiTechlabAssignment\\assignment-2\\src\\models\\inventory.js:48:349)\n    at D:\\Programming\\Projects\\marutiTechlabAssignment\\marutiTechlabAssignment\\assignment-2\\src\\routers\\inventory.js:48:28\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"level":"info","message":"update data route start.","service":"user-service"}
+{"level":"info","message":"valid data check: ","service":"user-service"}
+{"level":"info","message":"sending id, req.body and req.file in updateQuery function","service":"user-service"}
+{"level":"info","message":"data arrived at updateQuery function: ","service":"user-service"}
+{"level":"info","message":"update query executed successfully: [object Object]","service":"user-service"}
+{"level":"info","message":"response from updateQuery function in router file: [object Object]","service":"user-service"}
+{"level":"info","message":"sending response from router using send","service":"user-service"}
+{"level":"info","message":"update data route start.","service":"user-service"}
+{"level":"info","message":"valid data check: ","service":"user-service"}
+{"level":"info","message":"sending id, req.body and req.file in updateQuery function","service":"user-service"}
+{"level":"info","message":"data arrived at updateQuery function: ","service":"user-service"}
+{"level":"info","message":"update query executed successfully: [object Object]","service":"user-service"}
+{"level":"info","message":"response from updateQuery function in router file: [object Object]","service":"user-service"}
+{"level":"info","message":"sending response from router using send","service":"user-service"}
+{"level":"info","message":"update data route start.","service":"user-service"}
+{"level":"info","message":"valid data check: ","service":"user-service"}
+{"level":"info","message":"sending id, req.body and req.file in updateQuery function","service":"user-service"}
+{"level":"info","message":"data arrived at updateQuery function: ","service":"user-service"}
+{"level":"info","message":"update query executed successfully: [object Object]","service":"user-service"}
+{"level":"info","message":"response from updateQuery function in router file: [object Object]","service":"user-service"}
+{"level":"info","message":"sending response from router using send","service":"user-service"}
+{"level":"info","message":"delete data route start.","service":"user-service"}
+{"level":"info","message":"sending search in deleteQuery function","service":"user-service"}
+{"level":"info","message":"data arrived at updateQuery function: ","service":"user-service"}
+{"level":"warn","message":"no such data in database delete query executed","service":"user-service"}
+{"level":"info","message":"response from deleteQuery function in router file: no such data in database.","service":"user-service"}
+{"level":"info","message":"sending response from router using send","service":"user-service"}
+{"level":"info","message":"insert data route start.","service":"user-service"}
+{"level":"info","message":"valid data check: ","service":"user-service"}
+{"level":"info","message":"sending req.body and req.file in insertQuery function","service":"user-service"}
+{"level":"info","message":"data arrived at insertQuery function: ","service":"user-service"}
+{"level":"info","message":"insert query executed successfully: [object Object]","service":"user-service"}
+{"level":"info","message":"response from insertQuery function in router file: [object Object]","service":"user-service"}
+{"level":"info","message":"sending response from router using send","service":"user-service"}
+{"level":"info","message":"insert data route start.","service":"user-service"}
+{"0":{"field":"inventoryName","message":"The 'inventoryName' field is required.","type":"required"},"1":{"field":"inventoryCategory","message":"The 'inventoryCategory' field is required.","type":"required"},"2":{"field":"manufacturingTime","message":"The 'manufacturingTime' field is required.","type":"required"},"level":"info","message":"valid data check: ","service":"user-service"}
+{"level":"error","message":"invalid data after check sending response improper data.","service":"user-service"}
+{"level":"info","message":"insert data route start.","service":"user-service"}
+{"0":{"field":"inventoryName","message":"The 'inventoryName' field is required.","type":"required"},"1":{"field":"inventoryCategory","message":"The 'inventoryCategory' field is required.","type":"required"},"2":{"field":"manufacturingTime","message":"The 'manufacturingTime' field is required.","type":"required"},"level":"info","message":"valid data check: ","service":"user-service"}
+{"level":"error","message":"invalid data after check sending response improper data.","service":"user-service"}
+{"level":"info","message":"insert data route start.","service":"user-service"}
+{"0":{"field":"inventoryName","message":"The 'inventoryName' field is required.","type":"required"},"1":{"field":"inventoryCategory","message":"The 'inventoryCategory' field is required.","type":"required"},"2":{"field":"manufacturingTime","message":"The 'manufacturingTime' field is required.","type":"required"},"level":"info","message":"valid data check: ","service":"user-service"}
+{"level":"error","message":"invalid data after check sending response improper data.","service":"user-service"}
+{"level":"info","message":"insert data route start.","service":"user-service"}
+{"0":{"field":"inventoryName","message":"The 'inventoryName' field is required.","type":"required"},"1":{"field":"inventoryCategory","message":"The 'inventoryCategory' field is required.","type":"required"},"2":{"field":"manufacturingTime","message":"The 'manufacturingTime' field is required.","type":"required"},"level":"info","message":"valid data check: ","service":"user-service"}
+{"level":"error","message":"invalid data after check sending response improper data.","service":"user-service"}
+{"level":"info","message":"insert data route start.","service":"user-service"}
+{"0":{"field":"inventoryName","message":"The 'inventoryName' field is required.","type":"required"},"1":{"field":"inventoryCategory","message":"The 'inventoryCategory' field is required.","type":"required"},"2":{"field":"manufacturingTime","message":"The 'manufacturingTime' field is required.","type":"required"},"level":"info","message":"valid data check: ","service":"user-service"}
+{"level":"error","message":"invalid data after check sending response improper data.","service":"user-service"}
+{"level":"info","message":"insert data route start.","service":"user-service"}
+{"level":"info","message":"valid data check: ","service":"user-service"}
+{"level":"info","message":"sending req.body and req.file in insertQuery function","service":"user-service"}
+{"level":"info","message":"data arrived at insertQuery function: ","service":"user-service"}
+{"code":"ECONNREFUSED","errno":-4078,"level":"error","message":"error in insert router:  connect ECONNREFUSED 127.0.0.1:3306","service":"user-service","stack":"Error: connect ECONNREFUSED 127.0.0.1:3306\n    at PromisePool.execute (D:\\Programming\\Projects\\marutiTechlabAssignment\\marutiTechlabAssignment\\assignment-2\\node_modules\\mysql2\\promise.js:359:22)\n    at insertQuery (D:\\Programming\\Projects\\marutiTechlabAssignment\\marutiTechlabAssignment\\assignment-2\\src\\models\\inventory.js:48:46)\n    at D:\\Programming\\Projects\\marutiTechlabAssignment\\marutiTechlabAssignment\\assignment-2\\src\\routers\\inventory.js:52:28\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"level":"info","message":"insert data route start.","service":"user-service"}
+{"level":"info","message":"valid data check: ","service":"user-service"}
+{"level":"info","message":"sending req.body and req.file in insertQuery function","service":"user-service"}
+{"level":"info","message":"data arrived at insertQuery function: ","service":"user-service"}
+{"code":"ECONNREFUSED","errno":-4078,"level":"error","message":"error in insert router:  connect ECONNREFUSED 127.0.0.1:3306","service":"user-service","stack":"Error: connect ECONNREFUSED 127.0.0.1:3306\n    at PromisePool.execute (D:\\Programming\\Projects\\marutiTechlabAssignment\\marutiTechlabAssignment\\assignment-2\\node_modules\\mysql2\\promise.js:359:22)\n    at insertQuery (D:\\Programming\\Projects\\marutiTechlabAssignment\\marutiTechlabAssignment\\assignment-2\\src\\models\\inventory.js:48:46)\n    at D:\\Programming\\Projects\\marutiTechlabAssignment\\marutiTechlabAssignment\\assignment-2\\src\\routers\\inventory.js:54:28\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"level":"info","message":"insert data route start.","service":"user-service"}
+{"level":"info","message":"valid data check: ","service":"user-service"}
+{"level":"info","message":"sending req.body and req.file in insertQuery function","service":"user-service"}
+{"level":"info","message":"data arrived at insertQuery function: ","service":"user-service"}
+{"code":"ECONNREFUSED","errno":-4078,"level":"error","message":"error in insert router:  connect ECONNREFUSED 127.0.0.1:3306","service":"user-service","stack":"Error: connect ECONNREFUSED 127.0.0.1:3306\n    at PromisePool.execute (D:\\Programming\\Projects\\marutiTechlabAssignment\\marutiTechlabAssignment\\assignment-2\\node_modules\\mysql2\\promise.js:359:22)\n    at insertQuery (D:\\Programming\\Projects\\marutiTechlabAssignment\\marutiTechlabAssignment\\assignment-2\\src\\models\\inventory.js:48:46)\n    at D:\\Programming\\Projects\\marutiTechlabAssignment\\marutiTechlabAssignment\\assignment-2\\src\\routers\\inventory.js:54:28\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"level":"info","message":"insert data route start.","service":"user-service"}
+{"level":"info","message":"valid data check: ","service":"user-service"}
+{"level":"info","message":"sending req.body and req.file in insertQuery function","service":"user-service"}
+{"level":"info","message":"data arrived at insertQuery function: ","service":"user-service"}
+{"code":"ECONNREFUSED","errno":-4078,"level":"error","message":"error in insert router:  connect ECONNREFUSED 127.0.0.1:3306","service":"user-service","stack":"Error: connect ECONNREFUSED 127.0.0.1:3306\n    at PromisePool.execute (D:\\Programming\\Projects\\marutiTechlabAssignment\\marutiTechlabAssignment\\assignment-2\\node_modules\\mysql2\\promise.js:359:22)\n    at insertQuery (D:\\Programming\\Projects\\marutiTechlabAssignment\\marutiTechlabAssignment\\assignment-2\\src\\models\\inventory.js:48:46)\n    at D:\\Programming\\Projects\\marutiTechlabAssignment\\marutiTechlabAssignment\\assignment-2\\src\\routers\\inventory.js:54:28\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"level":"info","message":"insert data route start.","service":"user-service"}
+{"level":"info","message":"valid data check: ","service":"user-service"}
+{"level":"info","message":"sending req.body and req.file in insertQuery function","service":"user-service"}
+{"level":"info","message":"data arrived at insertQuery function: ","service":"user-service"}
+{"code":"ECONNREFUSED","errno":-4078,"level":"error","message":"error in insert router:  connect ECONNREFUSED 127.0.0.1:3306","service":"user-service","stack":"Error: connect ECONNREFUSED 127.0.0.1:3306\n    at PromisePool.execute (D:\\Programming\\Projects\\marutiTechlabAssignment\\marutiTechlabAssignment\\assignment-2\\node_modules\\mysql2\\promise.js:359:22)\n    at insertQuery (D:\\Programming\\Projects\\marutiTechlabAssignment\\marutiTechlabAssignment\\assignment-2\\src\\models\\inventory.js:48:46)\n    at D:\\Programming\\Projects\\marutiTechlabAssignment\\marutiTechlabAssignment\\assignment-2\\src\\routers\\inventory.js:54:28\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"level":"info","message":"insert data route start.","service":"user-service"}
+{"level":"info","message":"valid data check: ","service":"user-service"}
+{"level":"info","message":"sending req.body and req.file in insertQuery function","service":"user-service"}
+{"level":"info","message":"data arrived at insertQuery function: ","service":"user-service"}
+{"level":"info","message":"insert query executed successfully: [object Object]","service":"user-service"}
+{"level":"info","message":"response from insertQuery function in router file: [object Object]","service":"user-service"}
+{"level":"info","message":"sending response from router using send","service":"user-service"}
+{"level":"info","message":"insert data route start.","service":"user-service"}
+{"level":"info","message":"valid data check: ","service":"user-service"}
+{"level":"info","message":"sending req.body and req.file in insertQuery function","service":"user-service"}
+{"level":"info","message":"data arrived at insertQuery function: ","service":"user-service"}
+{"level":"info","message":"insert query executed successfully: [object Object]","service":"user-service"}
+{"level":"info","message":"response from insertQuery function in router file: [object Object]","service":"user-service"}
+{"level":"info","message":"sending response from router using send","service":"user-service"}
+{"level":"info","message":"insert data route start.","service":"user-service"}
+{"level":"error","message":"error in insert router:  Cannot convert object to primitive value","service":"user-service","stack":"TypeError: Cannot convert object to primitive value\n    at D:\\Programming\\Projects\\marutiTechlabAssignment\\marutiTechlabAssignment\\assignment-2\\src\\routers\\inventory.js:44:52\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"level":"info","message":"insert data route start.","service":"user-service"}
+{"level":"error","message":"error in insert router:  Cannot convert object to primitive value","service":"user-service","stack":"TypeError: Cannot convert object to primitive value\n    at D:\\Programming\\Projects\\marutiTechlabAssignment\\marutiTechlabAssignment\\assignment-2\\src\\routers\\inventory.js:44:52\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"level":"info","message":"insert data route start.","service":"user-service"}
+{"level":"info","message":"valid data check: ","service":"user-service"}
+{"level":"info","message":"sending req.body and req.file in insertQuery function","service":"user-service"}
+{"level":"info","message":"data arrived at insertQuery function: ","service":"user-service"}
+{"level":"info","message":"insert query executed successfully: [object Object]","service":"user-service"}
+{"level":"info","message":"response from insertQuery function in router file: [object Object]","service":"user-service"}
+{"level":"info","message":"sending response from router using send","service":"user-service"}
+{"level":"info","message":"insert data route start.","service":"user-service"}
+{"level":"info","message":"valid data check: ","service":"user-service"}
+{"level":"info","message":"sending req.body and req.file in insertQuery function","service":"user-service"}
+{"level":"info","message":"data arrived at insertQuery function: ","service":"user-service"}
+{"level":"info","message":"insert query executed successfully: [object Object]","service":"user-service"}
+{"level":"info","message":"response from insertQuery function in router file: [object Object]","service":"user-service"}
+{"level":"info","message":"sending response from router using send","service":"user-service"}
+{"level":"info","message":"insert data route start.","service":"user-service"}
+{"level":"info","message":"valid data check: ","service":"user-service"}
+{"level":"info","message":"sending req.body and req.file in insertQuery function","service":"user-service"}
+{"level":"info","message":"data arrived at insertQuery function: ","service":"user-service"}
+{"level":"info","message":"insert query executed successfully: [object Object]","service":"user-service"}
+{"level":"info","message":"response from insertQuery function in router file: [object Object]","service":"user-service"}
+{"level":"info","message":"sending response from router using send","service":"user-service"}
+{"level":"info","message":"insert data route start.","service":"user-service"}
+{"0":{"field":"inventoryName","message":"The 'inventoryName' field is required.","type":"required"},"level":"info","message":"valid data check: ","service":"user-service"}
+{"level":"error","message":"invalid data after check sending response improper data.","service":"user-service"}
+{"level":"info","message":"insert data route start.","service":"user-service"}
+{"0":{"field":"inventoryName","message":"The 'inventoryName' field is required.","type":"required"},"level":"info","message":"valid data check: ","service":"user-service"}
+{"level":"error","message":"invalid data after check sending response improper data.","service":"user-service"}
+{"level":"info","message":"insert data route start.","service":"user-service"}
+{"0":{"field":"inventoryName","message":"The 'inventoryName' field is required.","type":"required"},"level":"info","message":"valid data check: ","service":"user-service"}
+{"level":"error","message":"invalid data after check sending response improper data.","service":"user-service"}
+{"level":"info","message":"insert data route start.","service":"user-service"}
+{"0":{"field":"inventoryName","message":"The 'inventoryName' field is required.","type":"required"},"level":"info","message":"valid data check: ","service":"user-service"}
+{"level":"error","message":"invalid data after check sending response improper data.","service":"user-service"}
+{"level":"info","message":"insert data route start.","service":"user-service"}
+{"0":{"field":"inventoryName","message":"The 'inventoryName' field is required.","type":"required"},"level":"info","message":"valid data check: ","service":"user-service"}
+{"level":"error","message":"invalid data after check sending response improper data.","service":"user-service"}
+{"level":"info","message":"insert data route start.","service":"user-service"}
+{"0":{"field":"inventoryName","message":"The 'inventoryName' field is required.","type":"required"},"level":"info","message":"valid data check: ","service":"user-service"}
+{"level":"error","message":"invalid data after check sending response improper data.","service":"user-service"}
+{"level":"info","message":"insert data route start.","service":"user-service"}
+{"0":{"field":"inventoryName","message":"The 'inventoryName' field is required.","type":"required"},"1":{"field":"inventoryCategory","message":"The 'inventoryCategory' field is required.","type":"required"},"2":{"field":"manufacturingTime","message":"The 'manufacturingTime' field is required.","type":"required"},"level":"info","message":"valid data check: ","service":"user-service"}
+{"level":"error","message":"invalid data after check sending response improper data.","service":"user-service"}
+{"level":"info","message":"insert data route start.","service":"user-service"}
+{"0":{"field":"inventoryName","message":"The 'inventoryName' field is required.","type":"required"},"1":{"field":"inventoryCategory","message":"The 'inventoryCategory' field is required.","type":"required"},"2":{"field":"manufacturingTime","message":"The 'manufacturingTime' field is required.","type":"required"},"level":"info","message":"valid data check: ","service":"user-service"}
+{"level":"error","message":"invalid data after check sending response improper data.","service":"user-service"}
+{"level":"info","message":"insert data route start.","service":"user-service"}
+{"0":{"field":"inventoryName","message":"The 'inventoryName' field is required.","type":"required"},"1":{"field":"inventoryCategory","message":"The 'inventoryCategory' field is required.","type":"required"},"2":{"field":"manufacturingTime","message":"The 'manufacturingTime' field is required.","type":"required"},"level":"info","message":"valid data check: ","service":"user-service"}
+{"level":"error","message":"invalid data after check sending response improper data.","service":"user-service"}
+{"level":"info","message":"insert data route start.","service":"user-service"}
+{"0":{"field":"inventoryName","message":"The 'inventoryName' field is required.","type":"required"},"1":{"field":"inventoryCategory","message":"The 'inventoryCategory' field is required.","type":"required"},"2":{"field":"manufacturingTime","message":"The 'manufacturingTime' field is required.","type":"required"},"level":"info","message":"valid data check: ","service":"user-service"}
+{"level":"error","message":"invalid data after check sending response improper data.","service":"user-service"}
+{"level":"info","message":"insert data route start.","service":"user-service"}
+{"0":{"field":"inventoryName","message":"The 'inventoryName' field is required.","type":"required"},"1":{"field":"inventoryCategory","message":"The 'inventoryCategory' field is required.","type":"required"},"2":{"field":"manufacturingTime","message":"The 'manufacturingTime' field is required.","type":"required"},"level":"info","message":"valid data check: ","service":"user-service"}
+{"level":"error","message":"invalid data after check sending response improper data.","service":"user-service"}
+{"level":"info","message":"insert data route start.","service":"user-service"}
+{"level":"info","message":"valid data check: ","service":"user-service"}
+{"level":"info","message":"sending req.body and req.file in insertQuery function","service":"user-service"}
+{"level":"info","message":"data arrived at insertQuery function: ","service":"user-service"}
+{"level":"error","message":"error in insert router:  Cannot read property 'filename' of undefined","service":"user-service","stack":"TypeError: Cannot read property 'filename' of undefined\n    at insertQuery (D:\\Programming\\Projects\\marutiTechlabAssignment\\marutiTechlabAssignment\\assignment-2\\src\\models\\inventory.js:48:349)\n    at D:\\Programming\\Projects\\marutiTechlabAssignment\\marutiTechlabAssignment\\assignment-2\\src\\routers\\inventory.js:59:28\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"level":"info","message":"insert data route start.","service":"user-service"}
+{"level":"info","message":"valid data check: ","service":"user-service"}
+{"level":"info","message":"sending req.body and req.file in insertQuery function","service":"user-service"}
+{"level":"info","message":"data arrived at insertQuery function: ","service":"user-service"}
+{"level":"error","message":"error in insert router:  Cannot read property 'filename' of undefined","service":"user-service","stack":"TypeError: Cannot read property 'filename' of undefined\n    at insertQuery (D:\\Programming\\Projects\\marutiTechlabAssignment\\marutiTechlabAssignment\\assignment-2\\src\\models\\inventory.js:48:349)\n    at D:\\Programming\\Projects\\marutiTechlabAssignment\\marutiTechlabAssignment\\assignment-2\\src\\routers\\inventory.js:59:28\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"level":"info","message":"insert data route start.","service":"user-service"}
+{"level":"info","message":"valid data check: ","service":"user-service"}
+{"level":"info","message":"sending req.body and req.file in insertQuery function","service":"user-service"}
+{"level":"info","message":"data arrived at insertQuery function: ","service":"user-service"}
+{"code":"ER_BAD_FIELD_ERROR","errno":1054,"level":"error","message":"error in insert router:  Unknown column 'inventory_user_id' in 'field list'","service":"user-service","sql":"INSERT INTO `inventory`(`inventory_name`, `inventory_category`, `expiry_time`, `inventory_quantity`, `manufacturing_time`, `inventory_image`, `inventory_user_id`) VALUES (?,?,?,?,?,?,?)","sqlMessage":"Unknown column 'inventory_user_id' in 'field list'","sqlState":"42S22","stack":"Error: Unknown column 'inventory_user_id' in 'field list'\n    at PromisePool.execute (D:\\Programming\\Projects\\marutiTechlabAssignment\\marutiTechlabAssignment\\assignment-2\\node_modules\\mysql2\\promise.js:359:22)\n    at insertQuery (D:\\Programming\\Projects\\marutiTechlabAssignment\\marutiTechlabAssignment\\assignment-2\\src\\models\\inventory.js:48:46)\n    at D:\\Programming\\Projects\\marutiTechlabAssignment\\marutiTechlabAssignment\\assignment-2\\src\\routers\\inventory.js:63:28\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"level":"info","message":"insert data route start.","service":"user-service"}
+{"level":"info","message":"valid data check: ","service":"user-service"}
+{"level":"info","message":"sending req.body and req.file in insertQuery function","service":"user-service"}
+{"level":"info","message":"data arrived at insertQuery function: ","service":"user-service"}
+{"code":"ER_BAD_FIELD_ERROR","errno":1054,"level":"error","message":"error in insert router:  Unknown column 'inventory_user_id' in 'field list'","service":"user-service","sql":"INSERT INTO `inventory`(`inventory_name`, `inventory_category`, `expiry_time`, `inventory_quantity`, `manufacturing_time`, `inventory_image`, `inventory_user_id`) VALUES (?,?,?,?,?,?,?)","sqlMessage":"Unknown column 'inventory_user_id' in 'field list'","sqlState":"42S22","stack":"Error: Unknown column 'inventory_user_id' in 'field list'\n    at PromisePool.execute (D:\\Programming\\Projects\\marutiTechlabAssignment\\marutiTechlabAssignment\\assignment-2\\node_modules\\mysql2\\promise.js:359:22)\n    at insertQuery (D:\\Programming\\Projects\\marutiTechlabAssignment\\marutiTechlabAssignment\\assignment-2\\src\\models\\inventory.js:48:46)\n    at D:\\Programming\\Projects\\marutiTechlabAssignment\\marutiTechlabAssignment\\assignment-2\\src\\routers\\inventory.js:63:28\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"level":"info","message":"insert data route start.","service":"user-service"}
+{"level":"error","message":"error in insert router:  Cannot read property 'filename' of undefined","service":"user-service","stack":"TypeError: Cannot read property 'filename' of undefined\n    at D:\\Programming\\Projects\\marutiTechlabAssignment\\marutiTechlabAssignment\\assignment-2\\src\\routers\\inventory.js:50:22\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"level":"info","message":"insert data route start.","service":"user-service"}
+{"level":"info","message":"valid data check: ","service":"user-service"}
+{"level":"info","message":"sending req.body and req.file in insertQuery function","service":"user-service"}
+{"level":"info","message":"data arrived at insertQuery function: ","service":"user-service"}
+{"level":"info","message":"insert query executed successfully: [object Object]","service":"user-service"}
+{"level":"info","message":"response from insertQuery function in router file: [object Object]","service":"user-service"}
+{"level":"info","message":"sending response from router using send","service":"user-service"}
+{"level":"info","message":"insert data route start.","service":"user-service"}
+{"level":"info","message":"valid data check: ","service":"user-service"}
+{"level":"info","message":"sending req.body and req.file in insertQuery function","service":"user-service"}
+{"level":"info","message":"data arrived at insertQuery function: ","service":"user-service"}
+{"level":"info","message":"insert query executed successfully: [object Object]","service":"user-service"}
+{"level":"info","message":"response from insertQuery function in router file: [object Object]","service":"user-service"}
+{"level":"info","message":"sending response from router using send","service":"user-service"}
+{"level":"info","message":"insert data route start.","service":"user-service"}
+{"0":{"field":"inventoryName","message":"The 'inventoryName' field is required.","type":"required"},"level":"info","message":"valid data check: ","service":"user-service"}
+{"level":"error","message":"invalid data after check sending response improper data.","service":"user-service"}
+{"level":"info","message":"insert data route start.","service":"user-service"}
+{"0":{"field":"inventoryName","message":"The 'inventoryName' field is required.","type":"required"},"level":"info","message":"valid data check: ","service":"user-service"}
+{"level":"error","message":"invalid data after check sending response improper data.","service":"user-service"}
+{"level":"info","message":"insert data route start.","service":"user-service"}
+{"level":"info","message":"valid data check: ","service":"user-service"}
+{"level":"info","message":"sending req.body and req.file in insertQuery function","service":"user-service"}
+{"level":"info","message":"data arrived at insertQuery function: ","service":"user-service"}
+{"level":"info","message":"insert query executed successfully: [object Object]","service":"user-service"}
+{"level":"info","message":"response from insertQuery function in router file: [object Object]","service":"user-service"}
+{"level":"info","message":"sending response from router using send","service":"user-service"}
+{"level":"info","message":"search data route start.","service":"user-service"}
+{"level":"info","message":"timezone in search data route: ","service":"user-service"}
+{"level":"info","message":"sending search and timezone in searchQuery function","service":"user-service"}
+{"level":"info","message":"data arrived at searchQuery function: ","service":"user-service"}
+{"level":"info","message":"search query executed successfully: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]","service":"user-service"}
+{"level":"info","message":"response from searchQuery function in router file: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]","service":"user-service"}
+{"level":"info","message":"sending response from router using send","service":"user-service"}
+{"level":"info","message":"search data route start.","service":"user-service"}
+{"level":"info","message":"timezone in search data route: ","service":"user-service"}
+{"level":"info","message":"sending search and timezone in searchQuery function","service":"user-service"}
+{"level":"info","message":"data arrived at searchQuery function: ","service":"user-service"}
+{"level":"info","message":"search query executed successfully: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]","service":"user-service"}
+{"level":"info","message":"response from searchQuery function in router file: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]","service":"user-service"}
+{"level":"info","message":"sending response from router using send","service":"user-service"}
+{"level":"info","message":"delete data route start.","service":"user-service"}
+{"level":"info","message":"sending search in deleteQuery function","service":"user-service"}
+{"level":"info","message":"data arrived at updateQuery function: ","service":"user-service"}
+{"level":"info","message":"delete query executed successfully","service":"user-service"}
+{"level":"info","message":"response from deleteQuery function in router file: [object Object]","service":"user-service"}
+{"level":"info","message":"sending response from router using send","service":"user-service"}
+{"level":"info","message":"successfully data deleted for id: ","service":"user-service"}
+{"level":"info","message":"successfully data deleted for id: ","service":"user-service"}
+{"level":"info","message":"successfully data deleted for id: ","service":"user-service"}
+{"level":"info","message":"successfully data deleted for id: ","service":"user-service"}
+{"level":"info","message":"successfully data deleted for id: ","service":"user-service"}
+{"level":"info","message":"successfully data deleted for id: ","service":"user-service"}
+{"level":"info","message":"successfully data deleted for id: ","service":"user-service"}
+{"level":"info","message":"successfully data deleted for id: ","service":"user-service"}
+{"level":"info","message":"successfully unlink image data","service":"user-service"}
+{"level":"info","message":"successfully unlink image data","service":"user-service"}
+{"level":"info","message":"successfully unlink image data","service":"user-service"}
+{"level":"info","message":"successfully unlink image data","service":"user-service"}
+{"level":"info","message":"successfully unlink image data","service":"user-service"}
+{"level":"info","message":"successfully unlink image data","service":"user-service"}
+{"level":"info","message":"successfully unlink image data","service":"user-service"}
+{"level":"info","message":"successfully unlink image data","service":"user-service"}
+{"level":"info","message":"successfully unlink image data","service":"user-service"}
+{"level":"info","message":"successfully data deleted for id: ","service":"user-service"}
+{"level":"info","message":"successfully data deleted for id: ","service":"user-service"}
+{"level":"info","message":"successfully data deleted for id: ","service":"user-service"}
+{"level":"info","message":"successfully data deleted for id: ","service":"user-service"}
+{"level":"info","message":"search data route start.","service":"user-service"}
+{"level":"info","message":"timezone in search data route: ","service":"user-service"}
+{"level":"info","message":"sending search and timezone in searchQuery function","service":"user-service"}
+{"level":"info","message":"data arrived at searchQuery function: ","service":"user-service"}
+{"level":"warn","message":"no such data in database search query executed","service":"user-service"}
+{"level":"info","message":"response from searchQuery function in router file: [object Object]","service":"user-service"}
+{"level":"info","message":"sending response from router using send","service":"user-service"}
+{"level":"info","message":"insert data route start.","service":"user-service"}
+{"level":"info","message":"valid data check: ","service":"user-service"}
+{"level":"info","message":"sending req.body and req.file in insertQuery function","service":"user-service"}
+{"level":"info","message":"data arrived at insertQuery function: ","service":"user-service"}
+{"level":"info","message":"insert query executed successfully: [object Object]","service":"user-service"}
+{"level":"info","message":"response from insertQuery function in router file: [object Object]","service":"user-service"}
+{"level":"info","message":"sending response from router using send","service":"user-service"}
+{"level":"info","message":"search data route start.","service":"user-service"}
+{"level":"info","message":"timezone in search data route: ","service":"user-service"}
+{"level":"info","message":"sending search and timezone in searchQuery function","service":"user-service"}
+{"level":"info","message":"data arrived at searchQuery function: ","service":"user-service"}
+{"level":"info","message":"search query executed successfully: [object Object]","service":"user-service"}
+{"level":"info","message":"response from searchQuery function in router file: [object Object]","service":"user-service"}
+{"level":"info","message":"sending response from router using send","service":"user-service"}
+{"level":"info","message":"insert data route start.","service":"user-service"}
+{"level":"info","message":"valid data check: ","service":"user-service"}
+{"level":"info","message":"sending req.body and req.file in insertQuery function","service":"user-service"}
+{"level":"info","message":"data arrived at insertQuery function: ","service":"user-service"}
+{"level":"warn","message":"ERROR IN DATE","service":"user-service"}
+{"level":"error","message":"error in insert router:  Wrong dates!","service":"user-service","stack":"Error: Wrong dates!\n    at insertQuery (D:\\Programming\\Projects\\marutiTechlabAssignment\\marutiTechlabAssignment\\assignment-2\\src\\models\\inventory.js:45:15)\n    at D:\\Programming\\Projects\\marutiTechlabAssignment\\marutiTechlabAssignment\\assignment-2\\src\\routers\\inventory.js:63:28\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"level":"info","message":"insert data route start.","service":"user-service"}
+{"level":"info","message":"valid data check: ","service":"user-service"}
+{"level":"info","message":"sending req.body and req.file in insertQuery function","service":"user-service"}
+{"level":"info","message":"data arrived at insertQuery function: ","service":"user-service"}
+{"level":"info","message":"insert query executed successfully: [object Object]","service":"user-service"}
+{"level":"info","message":"response from insertQuery function in router file: [object Object]","service":"user-service"}
+{"level":"info","message":"sending response from router using send","service":"user-service"}
+{"level":"info","message":"search data route start.","service":"user-service"}
+{"level":"info","message":"timezone in search data route: ","service":"user-service"}
+{"level":"info","message":"sending search and timezone in searchQuery function","service":"user-service"}
+{"level":"info","message":"data arrived at searchQuery function: ","service":"user-service"}
+{"level":"info","message":"search query executed successfully: [object Object],[object Object]","service":"user-service"}
+{"level":"info","message":"response from searchQuery function in router file: [object Object],[object Object]","service":"user-service"}
+{"level":"info","message":"sending response from router using send","service":"user-service"}
+{"level":"info","message":"insert data route start.","service":"user-service"}
+{"level":"info","message":"valid data check: ","service":"user-service"}
+{"level":"info","message":"sending req.body and req.file in insertQuery function","service":"user-service"}
+{"level":"info","message":"data arrived at insertQuery function: ","service":"user-service"}
+{"level":"info","message":"insert query executed successfully: [object Object]","service":"user-service"}
+{"level":"info","message":"response from insertQuery function in router file: [object Object]","service":"user-service"}
+{"level":"info","message":"sending response from router using send","service":"user-service"}
+{"level":"info","message":"search data route start.","service":"user-service"}
+{"level":"info","message":"timezone in search data route: ","service":"user-service"}
+{"level":"info","message":"sending search and timezone in searchQuery function","service":"user-service"}
+{"level":"info","message":"data arrived at searchQuery function: ","service":"user-service"}
+{"level":"info","message":"search query executed successfully: [object Object],[object Object],[object Object]","service":"user-service"}
+{"level":"info","message":"response from searchQuery function in router file: [object Object],[object Object],[object Object]","service":"user-service"}
+{"level":"info","message":"sending response from router using send","service":"user-service"}
+{"level":"info","message":"insert data route start.","service":"user-service"}
+{"level":"info","message":"valid data check: ","service":"user-service"}
+{"level":"info","message":"sending req.body and req.file in insertQuery function","service":"user-service"}
+{"level":"info","message":"data arrived at insertQuery function: ","service":"user-service"}
+{"level":"info","message":"insert query executed successfully: [object Object]","service":"user-service"}
+{"level":"info","message":"response from insertQuery function in router file: [object Object]","service":"user-service"}
+{"level":"info","message":"sending response from router using send","service":"user-service"}
+{"level":"info","message":"search data route start.","service":"user-service"}
+{"level":"info","message":"timezone in search data route: ","service":"user-service"}
+{"level":"info","message":"sending search and timezone in searchQuery function","service":"user-service"}
+{"level":"info","message":"data arrived at searchQuery function: ","service":"user-service"}
+{"level":"info","message":"search query executed successfully: [object Object],[object Object],[object Object],[object Object]","service":"user-service"}
+{"level":"info","message":"response from searchQuery function in router file: [object Object],[object Object],[object Object],[object Object]","service":"user-service"}
+{"level":"info","message":"sending response from router using send","service":"user-service"}
+{"level":"info","message":"insert data route start.","service":"user-service"}
+{"level":"info","message":"valid data check: ","service":"user-service"}
+{"level":"info","message":"sending req.body and req.file in insertQuery function","service":"user-service"}
+{"level":"info","message":"data arrived at insertQuery function: ","service":"user-service"}
+{"level":"info","message":"insert query executed successfully: [object Object]","service":"user-service"}
+{"level":"info","message":"response from insertQuery function in router file: [object Object]","service":"user-service"}
+{"level":"info","message":"sending response from router using send","service":"user-service"}
+{"level":"info","message":"search data route start.","service":"user-service"}
+{"level":"info","message":"timezone in search data route: ","service":"user-service"}
+{"level":"info","message":"sending search and timezone in searchQuery function","service":"user-service"}
+{"level":"info","message":"data arrived at searchQuery function: ","service":"user-service"}
+{"level":"info","message":"search query executed successfully: [object Object],[object Object],[object Object],[object Object],[object Object]","service":"user-service"}
+{"level":"info","message":"response from searchQuery function in router file: [object Object],[object Object],[object Object],[object Object],[object Object]","service":"user-service"}
+{"level":"info","message":"sending response from router using send","service":"user-service"}
+{"level":"info","message":"insert data route start.","service":"user-service"}
+{"level":"info","message":"valid data check: ","service":"user-service"}
+{"level":"info","message":"sending req.body and req.file in insertQuery function","service":"user-service"}
+{"level":"info","message":"data arrived at insertQuery function: ","service":"user-service"}
+{"level":"info","message":"insert query executed successfully: [object Object]","service":"user-service"}
+{"level":"info","message":"response from insertQuery function in router file: [object Object]","service":"user-service"}
+{"level":"info","message":"sending response from router using send","service":"user-service"}
+{"level":"info","message":"search data route start.","service":"user-service"}
+{"level":"info","message":"timezone in search data route: ","service":"user-service"}
+{"level":"info","message":"sending search and timezone in searchQuery function","service":"user-service"}
+{"level":"info","message":"data arrived at searchQuery function: ","service":"user-service"}
+{"level":"info","message":"search query executed successfully: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]","service":"user-service"}
+{"level":"info","message":"response from searchQuery function in router file: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]","service":"user-service"}
+{"level":"info","message":"sending response from router using send","service":"user-service"}
