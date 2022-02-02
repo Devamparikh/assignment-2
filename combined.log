@@ -1772,3 +1772,110 @@
 {"level":"info","message":"search query executed successfully: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]","service":"user-service"}
 {"level":"info","message":"response from searchQuery function in router file: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]","service":"user-service"}
 {"level":"info","message":"sending response from router using send","service":"user-service"}
+{"level":"info","message":"insert data route start.","service":"user-service"}
+{"level":"info","message":"valid data check: ","service":"user-service"}
+{"level":"info","message":"sending req.body and req.file in insertQuery function","service":"user-service"}
+{"level":"info","message":"data arrived at insertQuery function: ","service":"user-service"}
+{"level":"info","message":"insert query executed successfully: [object Object]","service":"user-service"}
+{"level":"info","message":"response from insertQuery function in router file: [object Object]","service":"user-service"}
+{"level":"info","message":"sending response from router using send","service":"user-service"}
+{"level":"info","message":"insert data route start.","service":"user-service"}
+{"0":{"field":"inventoryName","message":"The 'inventoryName' field is required.","type":"required"},"level":"info","message":"valid data check: ","service":"user-service"}
+{"level":"error","message":"invalid data after check sending response improper data.","service":"user-service"}
+{"level":"info","message":"insert data route start.","service":"user-service"}
+{"0":{"field":"inventoryCategory","message":"The 'inventoryCategory' field is required.","type":"required"},"level":"info","message":"valid data check: ","service":"user-service"}
+{"level":"error","message":"invalid data after check sending response improper data.","service":"user-service"}
+{"level":"info","message":"insert data route start.","service":"user-service"}
+{"0":{"field":"inventoryCategory","message":"The 'inventoryCategory' field is required.","type":"required"},"level":"info","message":"valid data check: ","service":"user-service"}
+{"level":"error","message":"invalid data after check sending response improper data.","service":"user-service"}
+{"level":"info","message":"search data route start.","service":"user-service"}
+{"level":"info","message":"timezone in search data route: ","service":"user-service"}
+{"level":"info","message":"sending search and timezone in searchQuery function","service":"user-service"}
+{"level":"info","message":"data arrived at searchQuery function: ","service":"user-service"}
+{"level":"info","message":"search query executed successfully: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]","service":"user-service"}
+{"level":"info","message":"response from searchQuery function in router file: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]","service":"user-service"}
+{"level":"info","message":"sending response from router using send","service":"user-service"}
+{"level":"info","message":"update data route start.","service":"user-service"}
+{"level":"info","message":"sending id, req.body and req.file in updateQuery function","service":"user-service"}
+{"level":"info","message":"data arrived at updateQuery function: ","service":"user-service"}
+{"level":"info","message":"update query executed successfully: [object Object]","service":"user-service"}
+{"level":"info","message":"response from updateQuery function in router file: [object Object]","service":"user-service"}
+{"level":"info","message":"sending response from router using send","service":"user-service"}
+{"level":"info","message":"update data route start.","service":"user-service"}
+{"level":"info","message":"sending id, req.body and req.file in updateQuery function","service":"user-service"}
+{"level":"info","message":"data arrived at updateQuery function: ","service":"user-service"}
+{"level":"info","message":"update query executed successfully: [object Object]","service":"user-service"}
+{"level":"info","message":"response from updateQuery function in router file: [object Object]","service":"user-service"}
+{"level":"info","message":"sending response from router using send","service":"user-service"}
+{"level":"info","message":"update data route start.","service":"user-service"}
+{"level":"info","message":"sending id, req.body and req.file in updateQuery function","service":"user-service"}
+{"level":"info","message":"data arrived at updateQuery function: ","service":"user-service"}
+{"level":"info","message":"update query executed successfully: [object Object]","service":"user-service"}
+{"level":"info","message":"response from updateQuery function in router file: [object Object]","service":"user-service"}
+{"level":"info","message":"sending response from router using send","service":"user-service"}
+{"level":"info","message":"update data route start.","service":"user-service"}
+{"level":"info","message":"sending id, req.body and req.file in updateQuery function","service":"user-service"}
+{"level":"info","message":"data arrived at updateQuery function: ","service":"user-service"}
+{"level":"info","message":"update query executed successfully: [object Object]","service":"user-service"}
+{"level":"info","message":"response from updateQuery function in router file: [object Object]","service":"user-service"}
+{"level":"info","message":"sending response from router using send","service":"user-service"}
+{"level":"info","message":"update data route start.","service":"user-service"}
+{"level":"info","message":"sending id, req.body and req.file in updateQuery function","service":"user-service"}
+{"level":"info","message":"data arrived at updateQuery function: ","service":"user-service"}
+{"level":"warn","message":"no such data in database update query executed","service":"user-service"}
+{"level":"info","message":"response from updateQuery function in router file: [object Object]","service":"user-service"}
+{"level":"info","message":"sending response from router using send","service":"user-service"}
+{"level":"info","message":"update data route start.","service":"user-service"}
+{"level":"info","message":"sending id, req.body and req.file in updateQuery function","service":"user-service"}
+{"level":"info","message":"data arrived at updateQuery function: ","service":"user-service"}
+{"level":"warn","message":"no such data in database update query executed","service":"user-service"}
+{"level":"info","message":"response from updateQuery function in router file: [object Object]","service":"user-service"}
+{"level":"info","message":"sending response from router using send","service":"user-service"}
+{"level":"info","message":"update data route start.","service":"user-service"}
+{"level":"info","message":"sending id, req.body and req.file in updateQuery function","service":"user-service"}
+{"level":"info","message":"data arrived at updateQuery function: ","service":"user-service"}
+{"level":"warn","message":"no such data in database update query executed","service":"user-service"}
+{"level":"info","message":"response from updateQuery function in router file: [object Object]","service":"user-service"}
+{"level":"info","message":"sending response from router using send","service":"user-service"}
+{"level":"info","message":"update data route start.","service":"user-service"}
+{"level":"info","message":"sending id, req.body and req.file in updateQuery function","service":"user-service"}
+{"level":"info","message":"data arrived at updateQuery function: ","service":"user-service"}
+{"level":"warn","message":"no such data in database update query executed","service":"user-service"}
+{"level":"info","message":"response from updateQuery function in router file: [object Object]","service":"user-service"}
+{"level":"info","message":"sending response from router using send","service":"user-service"}
+{"level":"info","message":"update data route start.","service":"user-service"}
+{"level":"info","message":"sending id, req.body and req.file in updateQuery function","service":"user-service"}
+{"level":"info","message":"data arrived at updateQuery function: ","service":"user-service"}
+{"level":"warn","message":"no such data in database update query executed","service":"user-service"}
+{"level":"info","message":"response from updateQuery function in router file: [object Object]","service":"user-service"}
+{"level":"info","message":"sending response from router using send","service":"user-service"}
+{"level":"info","message":"update data route start.","service":"user-service"}
+{"level":"info","message":"sending id, req.body and req.file in updateQuery function","service":"user-service"}
+{"level":"info","message":"data arrived at updateQuery function: ","service":"user-service"}
+{"level":"info","message":"update query executed successfully: [object Object]","service":"user-service"}
+{"level":"info","message":"response from updateQuery function in router file: [object Object]","service":"user-service"}
+{"level":"info","message":"sending response from router using send","service":"user-service"}
+{"level":"info","message":"update data route start.","service":"user-service"}
+{"level":"info","message":"sending id, req.body and req.file in updateQuery function","service":"user-service"}
+{"level":"info","message":"data arrived at updateQuery function: ","service":"user-service"}
+{"level":"warn","message":"no such data in database update query executed","service":"user-service"}
+{"level":"info","message":"response from updateQuery function in router file: [object Object]","service":"user-service"}
+{"level":"info","message":"sending response from router using send","service":"user-service"}
+{"level":"info","message":"update data route start.","service":"user-service"}
+{"level":"info","message":"sending id, req.body and req.file in updateQuery function","service":"user-service"}
+{"level":"info","message":"data arrived at updateQuery function: ","service":"user-service"}
+{"level":"warn","message":"no such data in database update query executed","service":"user-service"}
+{"level":"info","message":"response from updateQuery function in router file: [object Object]","service":"user-service"}
+{"level":"info","message":"sending response from router using send","service":"user-service"}
+{"level":"info","message":"update data route start.","service":"user-service"}
+{"level":"info","message":"sending id, req.body and req.file in updateQuery function","service":"user-service"}
+{"level":"info","message":"data arrived at updateQuery function: ","service":"user-service"}
+{"level":"warn","message":"no such data in database update query executed","service":"user-service"}
+{"level":"info","message":"response from updateQuery function in router file: [object Object]","service":"user-service"}
+{"level":"info","message":"sending response from router using send","service":"user-service"}
+{"level":"info","message":"update data route start.","service":"user-service"}
+{"level":"info","message":"sending id, req.body and req.file in updateQuery function","service":"user-service"}
+{"level":"info","message":"data arrived at updateQuery function: ","service":"user-service"}
+{"level":"warn","message":"no such data in database update query executed","service":"user-service"}
+{"level":"info","message":"response from updateQuery function in router file: [object Object]","service":"user-service"}
+{"level":"info","message":"sending response from router using send","service":"user-service"}

@@ -51,12 +51,12 @@ router.post('/inventory', upload.single('uploadedFile'), async (req, res) => {
             logger.error('invalid data after check sending response improper data.')
             return res.status(400).send({error: 'Improper data.', message: 'filename required', ok: false})
         }
-        console.log("valid: " , valid)
+        // console.log("valid: " , valid)
         logger.info('valid data check: ' , valid)
         // console.log(valid)
         if (valid !== true) {
             logger.error('invalid data after check sending response improper data.')
-            return res.status(400).send({error: 'Improper data.', message: valid.message, ok: false})
+            return res.status(400).send({error: 'Improper data.', message: valid, ok: false})
         }
 
         logger.info('sending req.body and req.file in insertQuery function')
@@ -122,11 +122,11 @@ router.get('/inventory/:search', async (req, res) => {
 
 
 //update data router
-router.patch('/inventory', async (req, res) => {
+router.patch('/inventory/:id', async (req, res) => {
     try {
         logger.info('update data route start.')
         
-        const id = req.body.id
+        const id = req.params.id
         const quantity = req.body.quantity
 
         if(!quantity || !id){
@@ -141,7 +141,7 @@ router.patch('/inventory', async (req, res) => {
         logger.info('response from updateQuery function in router file: '+ rows)
         logger.info('sending response from router using send')
 
-        res.status(200).send({massage: 'quantity updated successfully!', ok: true})
+        res.status(200).send(rows)
 
         
     } catch (error) {

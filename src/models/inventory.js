@@ -49,7 +49,7 @@ const insertQuery = async (data, file) => {
         logger.warn('no such data in database insert query executed')
         return {error: 'no such data in database.', ok: false}
     }
-    console.log(rows)
+    // console.log(rows)
     logger.info('insert query executed successfully: ' + rows )
     return {id: rows.insertId, massage: 'insert query executed successfully', ok: true}
 
@@ -81,7 +81,7 @@ const searchQuery = async (search, timezone) => {
         // console.log(row.expiry_time)
 
     })
-    console.log(rows)
+    // console.log(rows)
     return rows
 
 }
@@ -93,9 +93,18 @@ const updateQuery = async (id, quantity) => {
     logger.info('data arrived at updateQuery function: ', id )
 
     const [rows, fields] = await promisePool.execute("UPDATE `inventory` SET `inventory_quantity`=? WHERE`is_deleted` = 0 AND  `inventory_id`=?", [ quantity, id])
+    // console.log(rows)
     if (rows.length == 0){
         logger.warn('no such data in database update query executed')
         return {error: 'no such data in database.', ok: false}
+    }
+    if (rows.affectedRows === 0){
+        logger.warn('no such data in database update query executed')
+        return {error: 'no such data in database.', ok: false}
+    }
+    if (rows.changedRows ===0){
+        logger.warn('no such data in database update query executed')
+        return {error: 'nothing to change in database.', ok: false}
     }
     logger.info('update query executed successfully: ' + rows )
     return {massage: 'quantity updated successfully', ok: true}
@@ -117,7 +126,7 @@ const deleteQuery = async (search) => {
     rows.forEach(async(row) =>{
 
         if(row.inventory_image == ''){
-            console.log('no image present')
+            // console.log('no image present')
         }else {
             fs.unlink('Public/data/uploads/' + row.inventory_image, (error) => {
                 if (error) throw error;

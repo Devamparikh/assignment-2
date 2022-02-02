@@ -44,3 +44,6 @@
 {"level":"error","message":"invalid data after check sending response improper data.","service":"user-service"}
 {"level":"error","message":"invalid data after check sending response improper data.","service":"user-service"}
 {"level":"error","message":"error in insert router:  Wrong dates!","service":"user-service","stack":"Error: Wrong dates!\n    at insertQuery (D:\\Programming\\Projects\\marutiTechlabAssignment\\marutiTechlabAssignment\\assignment-2\\src\\models\\inventory.js:45:15)\n    at D:\\Programming\\Projects\\marutiTechlabAssignment\\marutiTechlabAssignment\\assignment-2\\src\\routers\\inventory.js:63:28\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"level":"error","message":"invalid data after check sending response improper data.","service":"user-service"}
+{"level":"error","message":"invalid data after check sending response improper data.","service":"user-service"}
+{"level":"error","message":"invalid data after check sending response improper data.","service":"user-service"}
